@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>DotAndNumbersOnly</name>
+   <name>NumbersAndDotsOf3</name>
    <tag></tag>
-   <elementGuidId>965590df-9a69-4019-876e-c36097a51f99</elementGuidId>
+   <elementGuidId>cf75b705-f521-40b5-9f18-c74e335d8c9e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/*[string-length(normalize-space(translate(text(), '.0123456789', '')))=0]</value>
+         <value>//li[(string-length(normalize-space(translate(text(), '.0123456789', ''))) = 0) and (string-length(text()) - string-length(translate(text(), '.', '')) = 3 )]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/*[string-length(normalize-space(translate(text(), '.0123456789', '')))=0]</value>
+      <value>//li[(string-length(normalize-space(translate(text(), '.0123456789', ''))) = 0) and (string-length(text()) - string-length(translate(text(), '.', '')) = 3 )]</value>
    </webElementProperties>
 </WebElementEntity>
