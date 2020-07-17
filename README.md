@@ -29,7 +29,7 @@ So how should I write XPath expression to select `<li>` elements containing IP A
 
 # Solution
 
-Web browers does not implement XPath 2.0. Therefore I can not use Regular expression in XPath in TestObject. I should write locator using XPath 1.0 built-in functions only. Is it possible? --- Yes, I can, though the solution is far from elegance.
+Web browers does not implement XPath 2.0. Therefore I can not use `match()` function of XPath 2.0 in TestObject. I should write locator using XPath 1.0 built-in functions only. Is it possible? --- Yes, I can, though the solution is far from elegance.
 
 # Description
 
