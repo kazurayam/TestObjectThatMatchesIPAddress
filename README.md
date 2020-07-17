@@ -1,6 +1,10 @@
 Katalon TestObject that matches IP Address
 ============
 
+This is a small Katalon Stduio project for demonstration purpse. You can download the zip from the REALSES page, unzip it and open it with your Katalon Studio.
+
+This project is developed using Katalon Studio version 7.5.5.
+
 # Problem to solve
 
 Let me suppose I have a web page with following HTML fragment:
