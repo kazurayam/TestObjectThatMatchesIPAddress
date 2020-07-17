@@ -13,7 +13,7 @@ Let me suppose I have a web page with following HTML fragment:
   <ul>
     <li>abc</li>
     <li>de.f.ghi.j</li>
-    <li>1.23.456.7</li>
+    <li>1.23.45.67</li>
     <li>9.8.7.6.5.4.3.2.1</li>
     <li>hij 2.3.4.5 klm</li>
     <li>      6.7.8.9      </li>
@@ -59,7 +59,7 @@ Let me try to dectate what this XPath expression does.
 When I execute this, I could see in the Console that `NumbersAndDots` selected the following elements:
 
 ```
-1.23.456.7
+1.23.45.67
 9.8.7.6.5.4.3.2.1
 6.7.8.9
 0123456789...
@@ -81,7 +81,7 @@ This expression has second condition. It requires the content text should contai
 When I execute the test, I could see in the console `NumbersAndDotsOf3` selected the following elements:
 
 ```
-1.23.456.7
+1.23.45.67
 6.7.8.9
 0123456789...
 ```
@@ -103,9 +103,9 @@ This expression has 3rd condition, which requires the context text should not co
 When I run the test I could see in the console `NumbersAndNonconsecutiveDotsOf3` selected the following elements:
 
 ```
-1.23.456.7
+1.23.45.67
 6.7.8.9
 ```
 
-The problem is solved.
+My problem is solved.
 
